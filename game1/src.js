@@ -5,7 +5,7 @@ ctx.canvas.width = window.innerWidth;
 ctx.canvas.height = window.innerHeight;
 
 var stopped = false;
-var time = 30;
+var time = 1;
 var frame = 0;
 const CENTER_X = c.width / 1.722;
 const CENTER_Y = c.height / 2.0698;
@@ -160,8 +160,8 @@ else if( (player.radiusY > c.height / 3.885 ) && (player.radiusY < greenRadiusY)
     accuracy = accuracyPercentage + '%';
 
     if(greenRadiusX >= (c.width / 14.328) && greenRadiusY >= c.height / 3.885){  // makes sure the green circle doesn't get smaller than the white one
-    greenRadiusX -= 5;  // decrease the green radius everytime player hits green zone
-    greenRadiusY -= 10;
+    greenRadiusX -= 3;  // decrease the green radius everytime player hits green zone
+    greenRadiusY -= 7;
     }
 }
 else{
