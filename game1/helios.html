@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Minigame 1</title>
+</head>
+<style>
+     @font-face { font-family: Oxanium; src: url('assets/fonts/Oxanium-Medium.ttf'); } 
+     @font-face { font-family: Oxanium; font-weight: bold; src: url('assets/fonts/Oxanium-SemiBold.ttf');}
+     @font-face { font-family: Orbitron; src: url('assets/fonts/Orbitron-Medium.ttf');}
+
+    body, html{
+       margin: 0 auto;
+       width: 100%;
+       height: 100%;
+    }
+
+     #gameCanvas{
+         position: absolute;
+         width: 100%;
+         height: 100%;
+         z-index: 1;
+    }
+
+#scan{
+    position: absolute;
+    z-index: 3;
+    right: 4.5%;
+    bottom: 4.5%;
+    opacity: 1;
+    max-width: 25vw;
+    max-height: 25vh;
+}
+
+#scan:hover{
+    opacity: .5;
+}
+
+#gameover{
+    position: absolute;
+    z-index: 3;
+    top: 73%;
+    left: 40%;
+    opacity: 1;
+    max-width: 23vw;
+    max-height: 15vh;
+}
+
+#gameover:hover{
+    opacity: .5;
+}
+
+</style>
+<body>
+    <canvas id="gameCanvas" width="1200" height="1000"></canvas>
+    <img id="scan" src="assets/button.svg" alt="scan button">
+    <img id="gameover" src="assets/gameover.svg" alt="gameover button">
+    <script src="src.js"></script>
+</body>
+</html>
