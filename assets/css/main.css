@@ -178,8 +178,8 @@ input, select, textarea {
 		margin: 0 0 2rem 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+	h1, h2, h4, h5, h6 {
+		color: #C0C0C0;
 		font-weight: 600;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
@@ -215,8 +215,9 @@ input, select, textarea {
 	}
 
 	h3 {
+		color: #C0C0C0;
         text-align: center;
-		font-size: 1rem;
+		font-size: 2rem;
 	}
 
 	h4 {
