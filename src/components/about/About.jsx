@@ -40,7 +40,7 @@ const About = () => {
             </article>
           </div>
 
-          <p>Hello! My name is Stanley but a lot of people usually call me by my last name (Louie). I'm interested in creating interactive applications for web and mobile! Outside of coding, I enjoy watching basketball, play Mahjong, and following the stock market. </p>
+          <p>Hello! My name is Stanley but a lot of people usually call me by my last name (Louie). I'm interested in creating interactive applications for web and mobile! Outside of coding, I enjoy watching basketball, playing Mahjong, and following the stock market. </p>
         
         <a href="#contact" className='btn btn-primary'>Contact Me</a>
         </div>
