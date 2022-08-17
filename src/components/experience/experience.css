@@ -1,6 +1,6 @@
 .experience__container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 2rem;
 }
 
@@ -18,27 +18,12 @@
     cursor: default;
 }
 
-.experience__container > div h3 {
+.experience__container > div h3, h4 {
     text-align: center;
     margin-bottom: 2rem;
     color: var(--color-primary);
 }
 
-.experience__content{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
-}
-
-.experience__details{
-    display: flex;
-    gap: 1rem;
-}
-
-.experience__details-icon {
-    margin-top: 6px;
-    color: var(--color-primary);
-}
 
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
 @media screen and (max-width: 1024px)  {

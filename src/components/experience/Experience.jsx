@@ -10,98 +10,21 @@ const Experience = () => {
 
     <div className="container experience__container">
       <div className="experience__frontend">
-        <h3>Frontend Development</h3>
+        <h3>Interactive Developer Intern @ American Greetings</h3>
+        <h4>August 2021 - May 2022</h4>
 
 <div className="experience__content">
         <article className='experience__details'>
-          <BsPatchCheckFill className='experience__details-icon'/>
-          <div>
-          <h4>HTML</h4>
-          <small className='text-light'>Experienced</small>
-          </div>
-        </article>
-
-        <article className='experience__details'>
-          <BsPatchCheckFill className='experience__details-icon'/>
-          <div>
-          <h4>CSS</h4>
-          <small className='text-light'>Experienced</small>
-          </div>
-        </article>
-
-        <article className='experience__details'>
-          <BsPatchCheckFill className='experience__details-icon'/>
-          <div>
-          <h4>JavaScript</h4>
-          <small className='text-light'>Experienced</small>
-          </div>
-        </article>
-
-        <article className='experience__details'>
-          <BsPatchCheckFill className='experience__details-icon'/>
-          <div>
-          <h4>Bootstrap</h4>
-          <small className='text-light'>Experienced</small>
-          </div>
-        </article>
-
-        <article className='experience__details'>
-          <BsPatchCheckFill className='experience__details-icon'/>
-          <div>
-          <h4>React</h4>
-          <small className='text-light'>Intermediate</small>
-          </div>
-        </article>
-
-          <article className='experience__details'>
-          <BsPatchCheckFill className='experience__details-icon'/>
-          <div>
-          <h4>PixiJS</h4>
-          <small className='text-light'>Intermediate</small>
-          </div>
+        <div> <BsPatchCheckFill className='experience__details-icon'/> Collaborated with other developers and designers to produce, maintain,
+and secure the functionality and accessibility of web applications </div>
+<div><BsPatchCheckFill className='experience__details-icon'/>  Designed and deployed 10+ highly interactive electronic-cards for Jacquie
+Lawson using JavaScript, TypeScript, and PixiJS </div>
+<div><BsPatchCheckFill className='experience__details-icon'/>  Revised and updated code for web applications to accompany WCAG </div>
+<div><BsPatchCheckFill className='experience__details-icon'/>  Communicated and collaborated with multi-disciplinary teams of engineers,
+designers and producers on a daily basis </div>
         </article>
       </div>
       </div>
-
-
-      <div className="experience__backend">
-        <h3>Other</h3>
-
-<div className='experience__content'>
-        <article className='experience__details'>
-          <BsPatchCheckFill className='experience__details-icon'/>
-          <div>
-          <h4>Unity</h4>
-          <small className='text-light'>Experienced</small>
-          </div>
-        </article>
-
-        <article className='experience__details'>
-          <BsPatchCheckFill className='experience__details-icon'/>
-          <div>
-          <h4>NodeJS</h4>
-          <small className='text-light'>Experienced</small>
-          </div>
-        </article>
-
-        <article className='experience__details'>
-          <BsPatchCheckFill className='experience__details-icon'/>
-          <div>
-          <h4>Git</h4>
-          <small className='text-light'>Experienced</small>
-          </div>
-        </article>
-
-        <article className='experience__details'>
-          <BsPatchCheckFill className='experience__details-icon'/>
-          <div>
-          <h4>C#</h4>
-          <small className='text-light'>Experienced</small>
-          </div>
-        </article>
-
-      </div>
-    </div>
     </div>
     </section>
   )
