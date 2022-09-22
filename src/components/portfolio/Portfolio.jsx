@@ -2,7 +2,7 @@ import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/a.jpeg'
 import IMG2 from '../../assets/kree8.png'
-import IMG3 from '../../assets/asteroids.jpg'
+import IMG3 from '../../assets/visualizer.png'
 
 const data = [
   {
@@ -24,10 +24,11 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: 'The Heist',
-    paragraph: 'The Heist is a recreated 2D multi-directional shooter game from the classic game Asteroids. The player must avoid and shoot down as many enemy cars as possible and in order to rack up points. Developed with Unity and C#.',
-    github: 'https://github.com/Iouie/The-Heist',
-    demo: 'https://github.com/Iouie/The-Heist'
+    title: 'Audio Visualizer Project',
+    paragraph: 'A demon themed audio visualizer that displays visuals based on a music files frequency with many other options. Developed using Canvas API, Web Audio API, and JavaScript.',
+    github: 'https://github.com/Iouie/AudioVisualizer?',
+    demo: 'https://people.rit.edu/sxl7953/IGME330/Project/Visualizer/Visualizer.html?'
+
   }
 ]
 
